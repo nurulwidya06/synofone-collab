@@ -1,4 +1,3 @@
-/* navbar */
 .navbar-brand img {
     width: 120px;
 }
@@ -15,34 +14,41 @@
 .navbar-nav .btn {
     width: 140px;
 }
-/* navbar */
+/*navbar*/
 
-/* banner */
-#banner .carousel img {
+#banner .carousel img{
     width: 100%;
 }
-#banner .brand img {
-    width: 100%;
-}
-/* banner */
 
-/* unggulan */
-#unggulan .card {
+#banner .brand img{
     width: 100%;
 }
-#unggulan .card-text {
-    text-decoration: none;
+
+/*banner*/
+#unggulan .card{
+    width: 100%;
+}
+#unggulan .card-text{
+    text-decoration:none;
     color: black;
 }
-#unggulan .card-text:hover {
+#unggulan .card-text:hover{
     text-decoration: underline yellow;
 }
-/* unggulan */
+/*unggulan*/
+#lainnya .card{
+    width: 100%;
+}
+#lainnya .card-text{
+    text-decoration:none;
+    color: black;
+}
+#lainnya .card-text:hover{
+    text-decoration: underline yellow;
+}
 
-/* daftar */
-#daftar form label {
+#daftar form label{
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* daftar */
