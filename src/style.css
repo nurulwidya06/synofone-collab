@@ -1,3 +1,4 @@
+
 .navbar-brand img {
     width: 120px;
 }
@@ -6,49 +7,29 @@
     margin-left: auto;
 }
 
-.navbar-nav .form-control {
+.navbar-nav form input {
     width: 400px;
     margin-right: 20px;
 }
 
 .navbar-nav .btn {
-    width: 140px;
+    width: 120px;
+}
+
+.navbar-nav .profil {
+    background: none;
+    border: none;
 }
 /*navbar*/
 
-#banner .carousel img{
-    width: 100%;
-}
-
-#banner .brand img{
-    width: 100%;
-}
-
-/*banner*/
-#unggulan .card{
-    width: 100%;
-}
-#unggulan .card-text{
-    text-decoration:none;
-    color: black;
-}
-#unggulan .card-text:hover{
-    text-decoration: underline yellow;
-}
-/*unggulan*/
-#lainnya .card{
-    width: 100%;
-}
-#lainnya .card-text{
-    text-decoration:none;
-    color: black;
-}
-#lainnya .card-text:hover{
-    text-decoration: underline yellow;
-}
-
 #daftar form label{
     font-weight: 600;
+    margin: 10px 0px 10px 0px;
+}
+
+#order .info-buyer #row-bank {
     margin-top: 10px;
-    margin-bottom: 10px;
+}
+#order .info-buyer #row-bank p {
+    margin: 0px 0px 0px 0px;
 }
