@@ -1,59 +1,33 @@
 @media (max-width: 992px) {
 
     /* navbar */
-    .navbar-brand img {
-        width: 120px;
-    }
-
     .navbar-nav {
-        margin-left: auto;
+        margin: auto;
     }
 
-    .navbar-nav .form-control {
+    .navbar-nav form input {
         width: 100%;
         margin-top: 10px;
     }
 
     .navbar-nav .btn {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;  
+        margin: 10px 0px 10px 0px; 
     }
-
     /* navbar */
 
-    /* banner */
-    #banner .carousel img {
-        width: 100%;
+    /* detail */
+    #detail h4 {
+        margin-top: 20px;
     }
-
-    #banner .brand img {
-        width: 100%;
-    }
-
-    /* banner */
-
-    /* unggulan */
-    #unggulan .card {
-        width: 100%;
-    }
-
-    #unggulan .card-text {
-        text-decoration: none;
-        color: black;
-    }
-
-    #unggulan .card-text:hover {
-        text-decoration: underline yellow;
-    }
-
-    /* unggulan */
-
-    /* daftar */
-    #daftar form label {
-        font-weight: 600;
-        margin-top: 10px;
+    #detail .form-control {
         margin-bottom: 10px;
     }
-    /* daftar */
+    /* detail */
+
+    /* cart */
+    #cart .ringkasan {
+        margin-top: 20px;
+    } 
+    /* cart */
 }
