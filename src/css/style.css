@@ -172,3 +172,46 @@ footer {
     margin-bottom: 30px;
 }
 /* footer */
+
+/* card table */
+.card-table {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 24px;
+}
+
+.table thead tr th {
+    background-color: #efefef;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.table tbody tr th {
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+    white-space: nowrap;
+}
+
+.animated {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,10 +1,10 @@
 // import Component
 
-import BrandComponent from "../components/BrandComponent";
-import CarouselComponent from "../components/CarouselComponent";
-import FooterComponent from "../components/FooterComponent";
-import NavbarComponent from "../components/NavbarComponent";
-import UnggulanComponent from "../components/UnggulanComponent";
+import BrandComponent from "../../components/customer/BrandComponent";
+import CarouselComponent from "../../components/customer/CarouselComponent";
+import FooterComponent from "../../components/customer/FooterComponent";
+import NavbarComponent from "../../components/customer/NavbarComponent";
+import UnggulanComponent from "../../components/customer/UnggulanComponent";
 
 
 

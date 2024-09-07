@@ -2,7 +2,7 @@
 import { Nav, Navbar, Container, Form } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 
 const NavbarComponent = () => {
     return (
@@ -18,7 +18,7 @@ const NavbarComponent = () => {
                             </Form>
                             <hr className='d-block d-lg-none text-light' />
                             <Link to="/login" className="btn btn-warning me-2 text-light">Login</Link>
-                            <Link to="/daftar" className="btn btn-outline-light me-2 text-light">Daftar</Link>
+                            <Link to="/daftar" className="btn btn-outline-light me-2">Daftar</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
